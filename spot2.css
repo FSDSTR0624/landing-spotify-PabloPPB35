@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #805656;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #1db954;
+}
+
+.nav-item img {
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding: 70px 0;
+    background-color: #a02222;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text-content h2 {
+    font-size: 24px;
+}
+
+.image-content {
+    text-align: center;
+}
+
+.flmnco {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.PLNES, .PLNS {
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.PLNES {
+    background-color: #e1b1b1;
+    color: rgb(207, 30, 30);
+}
+
+.PLNS {
+    background-color: rgb(134, 12, 12);
+    color: white;
+    border: 1px ridge white;
+}
+
+.PLNES:hover {
+    background-color: azure;
+    border-radius: 40px;
+    padding: 25px 30px;
+}
+
+.PLNS:hover {
+    border-radius: 34px;
+    padding: 22px 22px;
+}
+
+.offer-details, .benefits {
+    text-align: center;
+    padding: 20px;
+}
+
+.offer-details a {
+    color: #1db954;
+    text-decoration: none;
+}
+ 
+.haha {
+    color: white;
+    
+}
+p{
+    color: white
+}
+
+.cdrado1 {
+    margin: 200px;
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 20rem 20rem 20rem;
+    grid-template-rows: 249px 180px 50px 290px 20rem 290px 50px 280px;
+    background-color: rgb(34, 32, 32);
+}
+.sep{
+    background-color: #222aa0;
+    margin:4px
+}
+.haha {
+    background-color: #a02222;
+    width: 12rem;
+    padding-bottom: 0.50rem;
+    padding-top: 0.60rem;
+    border-bottom-right-radius:20px ;
+}
+.smb {
+    background-color:rgb(244, 244, 244);
+    display:flex;
+    justify-content: left;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    }
+
+.plnahora {
+    display: grid;
+    grid-template-rows: 90px 150px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #222aa0;
+
+}
+.tdmsa {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: ;
+
+
+
+}
+.prueba {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: ;
+    margin-left:0px;
+    background-color: #222aa0;
+
+}
